@@ -26,8 +26,7 @@ namespace CommunicatingForms
         {
 
             Form2 form2 = new Form2();
-           // form2.onSentTxt += setlbltxt;
-
+            form2.onSentTxt += setlbltxt;
             form2.Show();
 
         }
